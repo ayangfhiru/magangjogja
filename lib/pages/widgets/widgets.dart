@@ -1,0 +1,30 @@
+import 'dart:io';
+
+import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:geocoding/geocoding.dart';
+import 'package:geolocator/geolocator.dart';
+import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:image_picker/image_picker.dart';
+import 'package:intl/intl.dart';
+import 'package:magangjogja/bloc/absensi_cubit.dart';
+import 'package:magangjogja/bloc/kegiatan_guru_cubit.dart';
+import 'package:magangjogja/models/absensi.dart';
+import 'package:magangjogja/models/kegiatan.dart';
+import 'package:magangjogja/models/user.dart';
+import 'package:magangjogja/pages/admin/admin.dart';
+import 'package:magangjogja/pages/guru/guru.dart';
+import 'package:magangjogja/pages/pages.dart';
+import 'package:magangjogja/services/services.dart';
+import 'package:supercharged/supercharged.dart';
+
+part 'akses_widget.dart';
+part 'bottom_navbar.dart';
+part 'daftar_magang.dart';
+part 'info_pendaftaran.dart';
+part 'list_absensi.dart';
+part 'list_kegiatan.dart';
+part 'location_widget.dart';
