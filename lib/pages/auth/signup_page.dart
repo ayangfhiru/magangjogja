@@ -20,14 +20,6 @@ class _SignUpPageState extends State<SignUpPage> {
   final _formKey = GlobalKey<FormState>();
 
   @override
-  void initState() {
-    emailController.text = 'ghege@gmail.com';
-    passwordController.text = 'password';
-    rewPassController.text = 'password';
-    super.initState();
-  }
-
-  @override
   void dispose() {
     emailController.dispose();
     passwordController.dispose();
