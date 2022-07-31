@@ -15,13 +15,6 @@ class _SignInPageState extends State<SignInPage> {
   late String password;
 
   @override
-  void initState() {
-    _emailController.text = 'ghege@gmail.com';
-    _passwordController.text = 'password';
-    super.initState();
-  }
-
-  @override
   void dispose() {
     _emailController.dispose();
     _passwordController.dispose();

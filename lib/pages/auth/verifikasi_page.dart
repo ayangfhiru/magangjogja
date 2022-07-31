@@ -63,7 +63,9 @@ class _VerifikasiPageState extends State<VerifikasiPage> {
                       height: 40,
                       margin: const EdgeInsets.only(top: 20),
                       child: ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Get.to(() => const SignInPage());
+                        },
                         style: ElevatedButton.styleFrom(
                           backgroundColor: "FFE064".toColor(),
                           shape: RoundedRectangleBorder(
