@@ -59,6 +59,12 @@ class _PendaftaranPageState extends State<PendaftaranPage> {
   String? namePorto;
 
   @override
+  void initState() {
+    _penguasaanSkil.text = '-';
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return GeneralPage(
         child: Column(
@@ -1226,8 +1232,9 @@ class _PendaftaranPageState extends State<PendaftaranPage> {
                                     'mulaiMagang': _mulaiMagang.text,
                                     'infoMagang': _infoMagang,
                                     'motor': _motor,
-                                    'tglGabung':
-                                        DateTime.now().millisecondsSinceEpoch,
+                                    'tglGabung': DateTime.now()
+                                        .millisecondsSinceEpoch
+                                        .toString(),
                                     'curriculumvitae': fileNameCv,
                                     'portofolio': fileNamePortofolio,
                                   };
