@@ -7,29 +7,29 @@ part 'detail_user.g.dart';
 @JsonSerializable()
 class DetailUserModel {
   final int user_id;
-  final String namaLengkap;
-  final String nik;
-  final String jenisKelamin;
-  final String nomorWhatsapp;
-  final String asalSekolah;
-  final String programStudi;
-  final String kotaAsal;
-  final String alasanMagang;
-  final String jenisMagang;
-  final String sistemMagang;
-  final String statusAnda;
-  final String bukuInggris;
-  final String whatsappDosen;
-  final String programMagang;
-  final String jamKerja;
-  final String yangDikuasai;
-  final String laptop;
-  final String memilikiAlat;
-  final String mulaiMagang;
-  final String infoMagang;
-  final String motor;
-  final String curriculumvitae;
-  final String portofolio;
+  final String? namaLengkap;
+  final String? nik;
+  final String? jenisKelamin;
+  final String? nomorWhatsapp;
+  final String? asalSekolah;
+  final String? programStudi;
+  final String? kotaAsal;
+  final String? alasanMagang;
+  final String? jenisMagang;
+  final String? sistemMagang;
+  final String? statusAnda;
+  final String? bukuInggris;
+  final String? whatsappDosen;
+  final String? programMagang;
+  final String? jamKerja;
+  final String? yangDikuasai;
+  final String? laptop;
+  final String? memilikiAlat;
+  final String? mulaiMagang;
+  final String? infoMagang;
+  final String? motor;
+  final String? curriculumvitae;
+  final String? portofolio;
 
   DetailUserModel({
     required this.user_id,
